@@ -1,0 +1,33 @@
+.app-header {
+  &.navbar {
+    margin-bottom: 0;
+    .navbar-brand {
+      color: $gft-dark-blue !important;
+      font-family: "Titillium Web", sans-serif;
+      font-size: 1.5rem !important;
+      padding-top: 0.75rem !important;
+      margin-right: 2rem !important;
+    }
+  }
+}
+
+footer {
+  background: $light-gray;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .logo-font {
+    color: $gft-dark-blue;
+    font-family: "Titillium Web",sans-serif;
+    vertical-align: middle;
+  }
+  .attribution {
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: $gray;
+    font-weight: 300;
+  }
+}
