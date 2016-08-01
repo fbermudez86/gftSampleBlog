@@ -12,12 +12,15 @@ import appConstants from './config/app.constants';
 
 import appLayout from './components/layout';
 import home from './components/home';
+import auth from './components/auth';
 
 const requires = [
   'ui.router',
   appLayout.name,
-  home.name
+  home.name,
+    auth.name
 ];
+
 
 const gft = angular
   .module('gft', requires)
